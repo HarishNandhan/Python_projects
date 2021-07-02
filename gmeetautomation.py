@@ -2,9 +2,9 @@ from time import sleep
 import pyautogui as auto
 import schedule, webbrowser
 webbrowser.register('chrome',None)
- 
+#initiation of the link 
 link="meet.google.com/lookup/a2wzlppz2y"
-
+#setting time
 time= "09:01"
 
 def join():
